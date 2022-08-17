@@ -15,7 +15,10 @@ repositories {
 }
 
 dependencies {
-    testImplementation 'org.testng:testng:7.1.0'
+    testImplementation 'org.testng:testng:7.6.1'
+    // https://mvnrepository.com/artifact/org.slf4j/slf4j-simple
+    testImplementation 'org.slf4j:slf4j-simple:2.0.0-alpha5'
+
 }
 
 test {
